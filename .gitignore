@@ -1,0 +1,24 @@
+# Ignore sensitive config files
+config.php
+
+# Ignore local development environment files
+*.log
+*.env
+
+# Ignore XAMPP or local IDE folders
+xampp/
+.vscode/
+.idea/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore composer files (if used later)
+vendor/
+composer.lock
+
+# Ignore backup or temporary files
+*.bak
+*.tmp
+*.swp
